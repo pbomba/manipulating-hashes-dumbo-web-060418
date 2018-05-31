@@ -17,6 +17,9 @@ contacts.each do |name, data|
   data.each do |attribute, value|
     if attribute == :favorite_icecream_flavors
       if value.include?("strawberry")
+        puts "-----------------------"
+        puts value
+        puts "-----------------------"
         value.delete("strawberry")
       end
     end
