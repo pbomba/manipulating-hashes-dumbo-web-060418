@@ -23,8 +23,8 @@ contacts.each do |name, data|
         puts "------------------------"
       end
     end
-  end
     return contacts
+  end
 end
 
 
