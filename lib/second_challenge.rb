@@ -9,6 +9,7 @@ food_list = []
 groceries.each do |food_type, food|
   food.each do |item|
     food_list << item
+  end
 end
 return food_list
   
