@@ -18,7 +18,6 @@ contacts each do |name, data|
     if attribute == :favorite_icecream_flavors
       value.each do |flavor|
         flavor.delete("strawberry")
-        
         puts "------------------------"
         puts value
         puts "------------------------"
