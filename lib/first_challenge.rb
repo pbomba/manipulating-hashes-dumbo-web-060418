@@ -23,12 +23,11 @@ contacts.each do |name, data|
         value.delete("strawberry")
       end
     end
-    return contacts
   end
 end
 
 
-  #remember to return your newly altered contacts hash!
+return contacts
 
 end
 
