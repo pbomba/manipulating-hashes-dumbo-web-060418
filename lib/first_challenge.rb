@@ -17,6 +17,10 @@ contacts each do |name, data|
   data each do |category, info|
     if category == :favorite_icecream_flavors
       info.delete("strawberry")
+      
+      puts "------------------------"
+      puts info
+      puts "------------------------"
     end
   end
 end
