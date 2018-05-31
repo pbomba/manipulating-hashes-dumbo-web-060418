@@ -16,7 +16,7 @@ def first_challenge
 contacts each do |name, data|
   data each do |category, info|
     if category == :favorite_icecream_flavors
-      data.delete("strawberry")
+      info.delete("strawberry")
     end
   end
 end
