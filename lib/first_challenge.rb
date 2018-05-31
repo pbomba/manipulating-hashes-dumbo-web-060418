@@ -19,7 +19,7 @@ contacts each do |name, data|
       value.delete("strawberry")
       
       puts "------------------------"
-      puts info
+      puts value
       puts "------------------------"
     end
   end
