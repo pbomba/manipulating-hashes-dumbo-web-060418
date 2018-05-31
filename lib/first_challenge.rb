@@ -19,7 +19,7 @@ contacts each do |name, data|
       value.each do |flavor|
         flavor.delete("strawberry")
         puts "------------------------"
-        puts value
+        puts flavor
         puts "------------------------"
       end
     end
